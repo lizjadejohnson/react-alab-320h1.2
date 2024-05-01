@@ -36,3 +36,115 @@
     transform: rotate(360deg);
   }
 }
+
+.homepage {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.blog-header{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+}
+
+
+
+.blog-title{
+  color: red;
+  font-size: 5em;
+  font-weight: 300;
+  padding-left: 2%;
+  margin-bottom: 0;
+}
+.blog-subtitle{
+  font-weight: 400;
+  padding-left: 2%;
+  margin-top: 0;
+}
+
+.blog-nav ul, .footer-nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  text-align: left;
+  padding-left: 0;
+}
+
+.blog-nav a {
+  color: gray;
+  font-size: large;
+}
+
+.recent-entries {
+  border-left: solid gray;
+}
+
+.entryContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  padding-bottom: 1em;
+  border-bottom: solid gray;
+  border-bottom-width: .1em;
+  margin: 1em;
+
+}
+
+.entryDate {
+  font-size: 1.75em;
+  font-weight: 350;
+  color: gray;
+}
+.entryTitle {
+  font-size: 3em;
+  font-weight: 350;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.entryContainer img{
+
+}
+
+.entryBody {
+  position: relative;
+  max-height: 6em;  /* Adjust based on line height/number of lines you want */
+  overflow: hidden;
+  font-size: 1em;
+  line-height: 1.5em; /* Example line-height, adjust as needed */
+  margin-bottom: 1em;
+}
+
+.entryBody::first-letter {
+  float: left;
+  font-size: 4em; /* Large size for drop cap */
+  color: gray; /* Color of the drop cap */
+  line-height: 1; /* Adjust this to align the drop cap with the rest of the text */
+  padding-right: 10px; /* Space between the drop cap and rest of text */
+}
+
+.continueLink {
+  text-align: right;
+}
+
+.continueLink a{
+  text-align: right;
+  color: red;
+  font-weight: 700;
+}
+
+.footer-nav a {
+  color: red;
+  font-size: large;
+}
+
+.copyright{
+  color: gray;
+  text-align: left;
+  font-size: large;
+  font-weight: 200;
+  margin-left: 1em;
+}
